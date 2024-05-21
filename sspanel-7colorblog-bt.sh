@@ -66,12 +66,13 @@ echo -e "${Info} 检测安装git、unzip、crontab工具已完成"
 sleep 1
 ##下载解压拷贝源码
 echo -e "${Info} 正在下载解压处理程序源码"
-wget -N --no-check-certificate "https://github.com/lizhongnian/ss-panel-v3-mod_Uim/archive/dev.zip"
-unzip dev.zip
-cd ss-panel-v3-mod_Uim-dev
-mv * .[^.]* /www/wwwroot/$website/
-cd ..
-rm -rf dev.zip ss-panel-v3-mod_Uim-dev/
+git clone https://github.com/BobCoderS9/SSPanel-Metron.git ${PWD}
+# wget -N --no-check-certificate "https://github.com/lizhongnian/ss-panel-v3-mod_Uim/archive/dev.zip"
+# unzip dev.zip
+# cd ss-panel-v3-mod_Uim-dev
+# mv * .[^.]* /www/wwwroot/$website/
+# cd ..
+# rm -rf dev.zip ss-panel-v3-mod_Uim-dev/
 echo -e "${Info} 下载解压处理程序源码已完成"
 sleep 1
 ##处理php函数
