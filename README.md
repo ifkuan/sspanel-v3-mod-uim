@@ -11,6 +11,7 @@
 先安装宝塔
 ``` bash
 wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bash install.sh aapanel
+
 ```
 ## 宝塔环境准备
 安装宝塔后登录，选择一键安装lnmp环境，注意php版本选择7.1，其他默认，
@@ -21,7 +22,7 @@ wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bas
 
 ## 安装脚本
 ``` bash
-wget -N --no-check-certificate https://github.com/ifkuan/sspanel-v3-mod-uim/sspanel-v3-mod-uim-bt.sh &&
+git clone https://github.com/ifkuan/sspanel-v3-mod-uim.sh ${PWD} &&
 chmod +x sspanel-v3-mod-uim-bt.sh &&
 bash sspanel-v3-mod-uim-bt.sh
 ```
