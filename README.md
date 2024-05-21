@@ -22,9 +22,7 @@ wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bas
 
 ## 安装脚本
 ``` bash
-wget -N --no-check-certificate https://github.com/ifkuan/sspanel-v3-mod-uim/blob/master/sspanel-v3-mod-uim-bt.sh &&
-chmod +x sspanel-v3-mod-uim-bt.sh &&
-bash sspanel-v3-mod-uim-bt.sh
+wget -N --no-check-certificate https://github.com/ifkuan/sspanel-v3-mod-uim/blob/master/sspanel-v3-mod-uim-bt.sh && chmod +x sspanel-v3-mod-uim-bt.sh && bash sspanel-v3-mod-uim-bt.sh
 
 
 
