@@ -10,7 +10,7 @@
 需要是centos7系统
 先安装宝塔
 ``` bash
-yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.sh && sh install.sh
+wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && bash install.sh aapanel
 ```
 ## 宝塔环境准备
 安装宝塔后登录，选择一键安装lnmp环境，注意php版本选择7.1，其他默认，
@@ -21,7 +21,7 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install.
 
 ## 安装脚本
 ``` bash
-wget -N --no-check-certificate https://raw.githubusercontent.com/lizhongnian/sspanel-v3-mod-uim-bt/master/sspanel-v3-mod-uim-bt.sh &&
+wget -N --no-check-certificate https://github.com/ifkuan/sspanel-v3-mod-uim/sspanel-v3-mod-uim-bt.sh &&
 chmod +x sspanel-v3-mod-uim-bt.sh &&
 bash sspanel-v3-mod-uim-bt.sh
 ```
